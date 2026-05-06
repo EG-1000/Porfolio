@@ -13,6 +13,9 @@
 h1, .titre-contenu {
     font-family: 'Welcome Darling', cursive;
    font-variant: small-caps; 
+
+   
+    color: var(--color-texte-general);
 }
 /*header*/
 .entete {
@@ -28,13 +31,18 @@ h1, .titre-contenu {
     gap: 10px;
     margin-top: 10px;
 }
+.contenu{
+    width: 100%;
+    margin: 0 auto;
+
+}
 
 .lignedutemps {
     display: flex;
     flex-direction: column;
-    align-items: center;
-justify-content: center;
-  margin: 20px auto;
+    align-items: flex-start;
+justify-content: flex-start;
+margin-left: 20%;
    
  position: relative;
     width: 2px;
@@ -43,52 +51,48 @@ justify-content: center;
 }
 section {
     display: flex;
-    
-    align-items: center;
-    justify-content: center;
-    gap: 200px;
-    margin-bottom: 20px;
-  
-    z-index : 10;
-}
-section:nth-child(even) {
-    flex-direction: row-reverse;
-}
-section:nth-child(odd) {
     flex-direction: row;
+    align-items: center;
+justify-content: space-around;
+  width: 60%;
+    margin: 20px auto;
+  gap: 20px;
+  
+   
 }
+
 
 
 .contenu-point {
   position: absolute;
-z-index: 100;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 20px;
+    justify-content: center;
+    width: 100px;
     height: 20px;
     background-color: var(--couleur-entete);
-    border-radius: 50%;
-order:1;
+    border-radius: 10%;
+color:white;
 
 
 }
 
-.point-indicateur {
-    font-size: 14px;
-    color: var(--color-texte-general);
-   justify-content: flex-start;
-order: 2;
 
-
-}
 .projet {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+   margin-left: 100px;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: white;
+  
+    width: 95%;
+
+   
+    border-radius: 10px;    
 }
 
 
