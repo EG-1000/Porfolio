@@ -33,8 +33,11 @@ h1, .titre-contenu {
 }
 .contenu{
     width: 100%;
-    margin: 0 auto;
-
+    margin: 20px auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 .lignedutemps {
@@ -42,20 +45,21 @@ h1, .titre-contenu {
     flex-direction: column;
     align-items: flex-start;
 justify-content: flex-start;
-margin-left: 20%;
+
    
  position: relative;
     width: 2px;
     background-color: var(--couleur-entete);
-    height: 100%;
+
 }
 section {
     display: flex;
     flex-direction: row;
-    align-items: center;
+
 justify-content: space-around;
-  width: 60%;
-    margin: 20px auto;
+  width: 20vw;
+  height: auto;
+    margin: 20px 0;
   gap: 20px;
   
    
@@ -64,7 +68,9 @@ justify-content: space-around;
 
 
 .contenu-point {
-  position: absolute;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 
     display: flex;
     flex-direction: column;
@@ -74,30 +80,45 @@ justify-content: space-around;
     height: 20px;
     background-color: var(--couleur-entete);
     border-radius: 10%;
-color:white;
-
-
+    color: white;
 }
 
-
-.projet {
+.conteneur{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   margin-left: 100px;
+    margin-left: 100px;
+    width: 500px;
+
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: white;
-  
-    width: 95%;
-
-   
     border-radius: 10px;    
+
 }
 
 
 
 
+.pied-de-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--couleur-entete);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
 
+.pop-over_informatif {
+  display: flex;
+flex-direction: column;
+justify-self: center;
+    width: 40%;
+  height: auto;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+}
     
 
