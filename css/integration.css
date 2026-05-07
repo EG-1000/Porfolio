@@ -55,7 +55,7 @@ justify-content: flex-start;
 section {
     display: flex;
     flex-direction: row;
-
+align-items: center;
 justify-content: space-around;
   width: 20vw;
   height: auto;
@@ -88,7 +88,7 @@ justify-content: space-around;
     flex-direction: column;
     margin-left: 100px;
     width: 500px;
-
+    align-items: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: white;
     border-radius: 10px;    
@@ -120,5 +120,30 @@ justify-self: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
  
 }
-    
+.pop-over_projet > p{ 
 
+border-radius:50px;
+width: 50px;
+align-content: center;
+display: flex;
+justify-content: center;
+align-items: center;
+height:auto;
+border: 1px solid var(--couleur-entete);
+background-color: rgba(255,255,255,0.85);
+}   
+
+dialog{
+
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.conteneur-10{
+ background:  repeating-linear-gradient( rgba(14, 109, 125, 0.7), rgb(241, 207, 104) 10px);
+ border: 2px solid;
+ border-image: linear-gradient(rgba(241, 207, 104), rgba(14, 109, 125, 0.7)) 1;
+}
