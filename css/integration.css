@@ -167,3 +167,39 @@ dialog{
    font-variant: small-caps; 
     color: var(--color-texte-general);
 }
+.apprentissage_vrac{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+.apprentissage_vrac > p{
+    font-family: 'Welcome Darling', cursive;
+   font-variant: small-caps; 
+    color: var(--color-texte-general);
+}
+.some-Pop_overs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+.some-Pop_overs > p{
+    font-family: 'Welcome Darling', cursive;
+   font-variant: small-caps; 
+    color: var(--color-texte-general);
+}
+.pop-over{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
